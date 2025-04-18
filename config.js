@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '260774358600';
+const defaultOwner = '254758443111';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '260774358600' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '254758443111' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓';
-global.pairingNumber = process.env.BOT_NUMBER || '260774358600' ;  // put your number here
+global.botname = process.env.BOTNAME || '𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓';
+global.pairingNumber = process.env.BOT_NUMBER || '254758443111' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
-global.prems = []
-global.allowed = ['260774358600', '260774358600']
+global.prems = [254758443111]
+global.allowed = ['', '']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,9 +73,9 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓'
-global.author = '𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄'
-global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
+global.packname = '𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓'
+global.author = '★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫'
+global.menuvid = 'https://i.ibb.co/tMZ8f8cG/file-1127.jpg'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/mselachui'
 global.dygp = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'
 global.fgsc = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
